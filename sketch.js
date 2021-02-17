@@ -79,7 +79,7 @@ function setup() {
 function draw() {
   background("white");
   //displaying score
-  text("Score: "+ score, 500,50);
+  text("Score: "+ score, width-100,50);
   
   
   if(gameState === PLAY){
